@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('./assets/fonts/Minecraftia-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #333;
+    color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Minecraftia';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+canvas {
+    image-rendering: pixelated;
+}
